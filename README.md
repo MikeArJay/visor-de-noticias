@@ -1,11 +1,5 @@
 ## Visor de noticios
 
-Requisitos de finalización
-
-**Apertura:** jueves, 27 de febrero de 2025, 00:00
-
-**Cierre:** viernes, 7 de marzo de 2025, 00:00
-
 Crea una aplicación web sencilla para mostrar noticias utilizando React, React Router y React-Bootstrap para la interfaz, y consumiendo los datos de un archivo JSON 
 
 ### Funcionalidades
