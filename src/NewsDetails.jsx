@@ -1,8 +1,10 @@
-import { useEffect, useState } from "react"
+import { useContext, useEffect, useState } from "react"
 import { Card, Col, Container, Row } from "react-bootstrap"
 import { useParams } from "react-router-dom";
+import { newsContext } from "./NewsProvider";
 
-export const NewsDetails = ({ noticias }) => {
+export const NewsDetails = () => {
+    const noticias = useContext(newsContext);
     const [noticia, setNoticia] = useState({});
 
     const { id } = useParams();

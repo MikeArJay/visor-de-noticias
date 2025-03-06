@@ -1,8 +1,11 @@
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import {Link} from 'react-router-dom'
+import { newsContext } from './NewsProvider';
+import { useContext } from 'react';
 
 
-export const NewsList = ({ noticias }) => {
+export const NewsList = () => {
+const noticias = useContext(newsContext);
 
     return (
         <Container>
