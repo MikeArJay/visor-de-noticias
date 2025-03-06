@@ -40,3 +40,6 @@ Crea una aplicación web sencilla para mostrar noticias utilizando React, React 
 
 1. `/`: Muestra el componente `NewsList`.
 2. `/news/:id`: Muestra el componente `NewsDetail` para la noticia con el ID especificado.
+
+### xtensión 1: 
+  Modifica el menú para que tenga un componente **Home** que redireccione a la página NewsList  y un menú  **Noticias** con un submenú desplegable con las categorías de las noticias. Modifica el componente **NewsDetail** para que pueda mostrar el detalle de las diferentes noticias de la categoría seleccionada.
