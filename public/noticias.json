@@ -68,5 +68,19 @@
     "categoria": "Música",
     "autor": "Periodista Javier Castro",
     "fecha": "2024-04-29"
+  },
+  {
+    "titulo": "Nuevo festival de música electrónica rompe récords de asistencia",
+    "contenido": "El evento, realizado en Barcelona, reunió a más de 100,000 personas con actuaciones de DJs internacionales como Carl Cox, Charlotte de Witte y Armin van Buuren.",
+    "categoria": "Música",
+    "autor": "Ana Méndez",
+    "fecha": "2024-05-10"
+  },
+  {
+    "titulo": "Astrónomos descubren un exoplaneta potencialmente habitable",
+    "contenido": "Científicos han identificado un nuevo exoplaneta en la zona habitable de su estrella, con condiciones que podrían permitir la existencia de agua líquida en su superficie.",
+    "categoria": "Ciencia",
+    "autor": "Dr. Luis Fernández",
+    "fecha": "2024-05-12"
   }
 ]
