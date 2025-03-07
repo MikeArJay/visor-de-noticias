@@ -5,13 +5,13 @@ import { useContext } from 'react';
 
 
 export const NewsList = () => {
-const noticias = useContext(newsContext);
+const {noticias} = useContext(newsContext);
 
     return (
         <Container>
             <Row className='text-center'><h1>Actualidad</h1></Row>
             <Row className='mt-4'>
-                {noticias &&
+                {noticias?.length > 0 &&
 
                     noticias.map((noticia, index) =>
                         <Col key={index} sm={12} md={6} className='mb-3 d-flex'>
