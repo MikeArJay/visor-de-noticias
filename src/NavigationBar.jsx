@@ -10,7 +10,7 @@ export const NavigationBar = () => {
     const {categorias}= useContext(newsContext) ;
 
     return (
-        <Navbar variant="dark" bg="dark">
+        <Navbar data-bs-theme="dark" bg="dark">
             <Container>
                 <Navbar.Brand as={Link} to={'/'}>Home</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
